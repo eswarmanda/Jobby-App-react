@@ -1,8 +1,9 @@
 .header-card {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   align-items: center;
-  height: 100px;
+  height: 70px;
   background-color: #272727;
   font-family: Roboto;
 }

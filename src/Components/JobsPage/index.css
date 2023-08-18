@@ -196,7 +196,7 @@ h3 {
 p {
   color: #ffffff;
 }
-@media (max-width: 512px) {
+@media (max-width: 550px) {
   .jobs-card {
     width: 100%;
     background-color: black;
@@ -205,21 +205,23 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .profile-type-card {
     width: 100%;
     border: none;
     margin: 5px;
-    height: 100vh;
+    height: fit-content;
     padding: 10px;
-    margin-bottom: 80px;
-    margin-top: -40px;
+    margin-bottom: 50px;
+    margin-top: -20px;
   }
   .search-job-list {
     width: 100%;
     border: none;
     margin: 5px;
     padding: 10px;
+    margin-top: -50px;
   }
   .search-input-card {
     display: flex;
@@ -248,7 +250,7 @@ p {
     padding: 10px;
   }
 }
-@media (max-width: 720px) and (min-width: 550px) {
+@media (min-width: 550px) and (max-width: 920px) {
   .jobs-card {
     width: 100%;
     background-color: black;
@@ -257,27 +259,29 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .profile-type-card {
     width: 100%;
     border: none;
     margin: 5px;
-    height: 100vh;
+    height: fit-content;
     padding: 10px;
-    margin-bottom: 300px;
-    margin-top: -40px;
+    margin-bottom: 330px;
+    margin-top: -20px;
   }
   .search-job-list {
     width: 100%;
     border: none;
     margin: 5px;
     padding: 10px;
+    margin-top: -330px;
   }
   .search-input-card {
     display: flex;
   }
   .search-input {
-    height: 30px;
+    height: 45px;
     width: 100%;
     padding: 10px;
     background-color: black;
