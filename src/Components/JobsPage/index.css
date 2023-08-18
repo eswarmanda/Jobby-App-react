@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: black;
+  font-family: Roboto;
 }
 .container-job-card {
   width: 70%;
@@ -38,7 +39,7 @@
 .line1 {
   height: 0.5px;
   margin-top: 15px;
-  background-color: #8e8d8d;
+  background-color: #686767;
   border: none;
   margin-bottom: 30px;
 }
@@ -150,7 +151,7 @@ label {
 .line {
   height: 0.5px;
   margin-top: -5px;
-  background-color: #8e8d8d;
+  background-color: #6b6b6b;
   border: none;
 }
 .description {
@@ -194,4 +195,108 @@ h3 {
 }
 p {
   color: #ffffff;
+}
+@media (max-width: 512px) {
+  .jobs-card {
+    width: 100%;
+    background-color: black;
+  }
+  .container-job-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-type-card {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    height: 100vh;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: -40px;
+  }
+  .search-job-list {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+  }
+  .search-input-card {
+    display: flex;
+  }
+  .search-input {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-style: solid;
+    color: #ffffff;
+    outline: none;
+  }
+  .search-btn {
+    background-color: transparent;
+    width: 40px;
+    border-style: solid;
+    cursor: pointer;
+  }
+  .list-item {
+    margin-top: 20px;
+    border-color: #636363;
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+@media (max-width: 720px) and (min-width: 550px) {
+  .jobs-card {
+    width: 100%;
+    background-color: black;
+  }
+  .container-job-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-type-card {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    height: 100vh;
+    padding: 10px;
+    margin-bottom: 300px;
+    margin-top: -40px;
+  }
+  .search-job-list {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+  }
+  .search-input-card {
+    display: flex;
+  }
+  .search-input {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-style: solid;
+    color: #ffffff;
+    outline: none;
+  }
+  .search-btn {
+    background-color: transparent;
+    width: 40px;
+    border-style: solid;
+    cursor: pointer;
+  }
+  .list-item {
+    margin-top: 20px;
+    border-color: #636363;
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 10px;
+  }
 }

@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Roboto;
 }
 .job-item {
   width: 80%;
@@ -11,6 +12,9 @@
 }
 h4 {
   color: #ffffff;
+}
+.description {
+  font-size: 15px;
 }
 .visit-link-card {
   display: flex;
@@ -52,15 +56,35 @@ h4 {
   margin-left: 10px;
   border-radius: 5px;
 }
+.com-des {
+  font-size: 15px;
+}
 .ul-sjobs {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -40px;
 }
 .list-sJob {
   min-width: 20%;
   max-width: 30%;
   flex-grow: 1;
   margin-right: 20px;
+  border-color: #636363;
+  border-radius: 10px;
+  border-width: 0.1px;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+.similar-job-des {
+  font-size: small;
+  font-weight: 400;
+}
+.location-emp-card1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
 }
 .loader-container {
   height: 100vh;
@@ -77,4 +101,47 @@ h4 {
   align-content: center;
   width: 100%;
   background-color: black;
+}
+@media (max-width: 512px) {
+  .job-item {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .life-at-com {
+    display: flex;
+    flex-direction: column;
+  }
+  .com-img {
+    border-radius: 5px;
+  }
+  .list-sJob {
+    max-width: 100%;
+  }
+  .package-type-loc1 {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .package-type-loc {
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .rating {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .com-des {
+    font-size: 12px;
+  }
+  .visit-link {
+    font-size: 12px;
+    width: 40px;
+  }
+  .description {
+    font-size: 12px;
+  }
 }

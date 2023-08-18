@@ -30,3 +30,22 @@
 .home-des {
   color: aliceblue;
 }
+@media (max-width: 512px) {
+  .home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  .home-background {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    padding: 40px;
+  }
+  .home-content {
+    width: 60%;
+    margin-top: 30px;
+  }
+}

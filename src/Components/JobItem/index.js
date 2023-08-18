@@ -139,7 +139,7 @@ class JobItem extends Component {
             </ul>
             <h4>Life at Company</h4>
             <div className="life-at-com">
-              <p>{jobDetails.description}</p>
+              <p className="com-des">{jobDetails.description}</p>
               <img
                 className="com-img"
                 src={jobDetails.companyImageUrl}
@@ -167,15 +167,15 @@ class JobItem extends Component {
                     </div>
                   </div>
                   <h4>Description</h4>
-                  <p>{eachSJob.job_description}</p>
-                  <div className="location-emp-card">
+                  <p className="similar-job-des">{eachSJob.job_description}</p>
+                  <div className="location-emp-card1">
                     <div className="location-card">
                       <HiLocationMarker className="icon" />
-                      <p className="package-type-loc">{eachSJob.location}</p>
+                      <p className="package-type-loc1">{eachSJob.location}</p>
                     </div>
                     <div className="emp-type-card">
                       <BsBriefcaseFill className="icon" />
-                      <p className="package-type-loc">
+                      <p className="package-type-loc1">
                         {eachSJob.employment_type}
                       </p>
                     </div>

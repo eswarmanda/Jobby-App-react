@@ -21,10 +21,10 @@ const Header = props => {
 
       <ul className="link-ele">
         <Link className="link-item" to="/">
-          <li>Home</li>
+          <li className="list-link">Home</li>
         </Link>
         <Link className="link-item" to="/jobs">
-          <li>Jobs</li>
+          <li className="list-link">Jobs</li>
         </Link>
       </ul>
       <li>
