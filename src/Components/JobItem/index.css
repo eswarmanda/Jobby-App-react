@@ -1,0 +1,80 @@
+.job-details-main {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job-item {
+  width: 80%;
+  margin-top: 50px;
+}
+h4 {
+  color: #ffffff;
+}
+.visit-link-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.visit-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b6c5ff;
+  font-size: medium;
+  font-weight: 500;
+  width: 52px;
+  text-decoration: none;
+}
+.ul-skill-card {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+}
+.list-img {
+  height: 40px;
+  margin-right: 10px;
+}
+.life-at-com {
+  display: flex;
+  width: 100%;
+}
+.com-img {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.ul-sjobs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-sJob {
+  min-width: 20%;
+  max-width: 30%;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: black;
+}
+.failure-card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: black;
+}
